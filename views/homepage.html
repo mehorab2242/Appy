@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../css/homepage.css">
 </head>
 <body>
+<!--Header Section-->
 <header class="header">
     <div class="container nav-container">
         <div class="logo"><img src="../images/logo.png" alt="logo"></div>
@@ -21,9 +22,9 @@
                 <div class="dropdown">
                     <li><a href="javascript:void(0)">Blog</a></li>
                     <div class="dropdown-content">
-                        <a href="#">Recent blog</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Single blog</a>
+                        <a href="javascript:void(0)">Recent blog</a>
+                        <a href="javascript:void(0)">Blog</a>
+                        <a href="javascript:void(0)">Single blog</a>
                     </div>
                 </div>
                 <li><a href="javascript:void(0)">Contact</a></li>
@@ -31,7 +32,6 @@
         </nav>
     </div>
 </header>
-
 <!-- HERO SECTION -->
 <section class="hero">
     <div class="container hero-inner">
@@ -43,8 +43,8 @@
             </p>
 
             <div class="hero-actions">
-                <a href="#" class="btn primary">Read More</a>
-                <a href="#" class="btn primary">Features</a>
+                <a href="javascript:void(0)" class="btn primary">Read More</a>
+                <a href="javascript:void(0)" class="btn primary">Features</a>
             </div>
         </div>
 
@@ -56,16 +56,98 @@
     </div>
 </section>
 <!--About Section-->
-<section>
-    <div class="container">
-        <div class="row">
-            <div>
-                <h3>about appy</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore.</p>
+<section class="abouts-section">
+    <div class="abouts-container">
+        <div class="abouts-header">
+            <h2>About Appy</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>
+                sed do eiusmod tempor incididunt ut labore.
+            </p>
+        </div>
+
+        <div class="abouts-grid">
+            <div class="about-card">
+                <div class="about-icon"><img src="../icons/icon-1.png" alt="pen-icon"></div>
+                <h3>Exclusive Design</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit,sed do eiusmod                </p>
+            </div>
+
+            <div class="about-card">
+                <div class="about-icon"><img src="../icons/icon-2.png" alt="finger-icon"></div>
+                <h3>Exclusive Design</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit,sed do eiusmod                </p>
+            </div>
+            <div class="about-card">
+                <div class="about-icon"><img src="../icons/icon-3.png" alt="24-hour"></div>
+                <h3>Exclusive Design</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit,sed do eiusmod                </p>
             </div>
         </div>
     </div>
 </section>
+<!--Features Section-->
+<section class="features-section">
+    <div class="features-container">
+        <div class="features-header">
+            <h2>features</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>
+                sed do eiusmod tempor incididunt ut labore.
+            </p>
+        </div>
+
+        <div class="features-flex">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="../icons/icon-1.png" alt="pen-icon"></div>
+                    <h3>Exclusive Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit,sed do eiusmod                </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="../icons/icon-2.png" alt="finger-icon"></div>
+                    <h3>Exclusive Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit,sed do eiusmod                </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="../icons/icon-3.png" alt="24-hour"></div>
+                    <h3>Exclusive Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit,sed do eiusmod                </p>
+                </div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="../icons/icon-1.png" alt="pen-icon"></div>
+                    <h3>Exclusive Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit,sed do eiusmod                </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="../icons/icon-2.png" alt="finger-icon"></div>
+                    <h3>Exclusive Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit,sed do eiusmod                </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="../icons/icon-3.png" alt="24-hour"></div>
+                    <h3>Exclusive Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit,sed do eiusmod                </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 <!--Subscribe-->
 <section class="subscribe">
     <div class="container subscribe-inner ">
@@ -80,7 +162,7 @@
         <div>
             <form class="email-box" onsubmit="return false;">
                 <input type="email" placeholder="Your Email" aria-label="Email">
-                <button class="btn">SUBMIT</button>
+                <button class="submit-btn">SUBMIT</button>
             </form>
         </div>
     </div>

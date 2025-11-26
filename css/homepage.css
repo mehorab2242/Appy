@@ -122,7 +122,7 @@ body {
 /*Hero*/
 .hero {
     position: relative;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -176,7 +176,108 @@ body {
     background: white;
     color: #e11d48;
 }
-
+/*About */
+.abouts-section{
+    width: 100%;
+}
+.abouts-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+.abouts-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.abouts-header h2{
+    color: #2a3b71;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+.abouts-header p{
+    text-align: center;
+    color: #2a3b71;
+    margin: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
+}
+.abouts-grid{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+}
+.about-card{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 30px;
+}
+.about-card h3{
+    margin: 30px 0;
+    color: #2a3b71;
+    font-size: 20px;
+}
+.about-card p {
+    color: #2a3b71;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.features-flex{
+    display: flex;
+}
+.features-grid{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+}
+/*Features Section*/
+.features-section{
+    width: 100%;
+}
+.features-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(120deg, #e11d48 0%, #a855f7 45%, #3b82f6 100%);
+}
+.features-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features-header h2{
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+.features-header p{
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
+}
 /*Subscribe*/
 .subscribe {
     position: relative;
@@ -232,7 +333,7 @@ body {
     font-style: italic;
 }
 
-.btn {
+.submit-btn {
     width: 140px;
     border: none;
     background: linear-gradient(90deg, #d20044, #b80074);
